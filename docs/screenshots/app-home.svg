@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-label="InsightForge application screenshot">
+  <rect width="1280" height="760" fill="#f7fafc"/>
+  <rect width="300" height="760" fill="#14213d"/>
+  <rect x="28" y="30" width="44" height="44" rx="8" fill="#fca311"/>
+  <text x="50" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#14213d">IF</text>
+  <text x="88" y="48" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">InsightForge</text>
+  <text x="88" y="68" font-family="Arial, sans-serif" font-size="13" fill="#cbd5e1">Big Data Analyzer</text>
+  <rect x="28" y="132" width="244" height="48" rx="8" fill="#0f8b8d"/>
+  <rect x="28" y="192" width="244" height="48" rx="8" fill="#ffffff" opacity=".08"/>
+  <rect x="28" y="252" width="244" height="48" rx="8" fill="#ffffff" opacity=".08"/>
+  <rect x="28" y="312" width="244" height="48" rx="8" fill="#ffffff" opacity=".08"/>
+  <text x="48" y="162" font-family="Arial, sans-serif" font-size="15" fill="#ffffff">Upload</text>
+  <text x="48" y="222" font-family="Arial, sans-serif" font-size="15" fill="#dbeafe">Preview</text>
+  <text x="48" y="282" font-family="Arial, sans-serif" font-size="15" fill="#dbeafe">Analyze</text>
+  <text x="48" y="342" font-family="Arial, sans-serif" font-size="15" fill="#dbeafe">Insights</text>
+  <text x="332" y="86" font-family="Arial, sans-serif" font-size="52" font-weight="800" fill="#152033">Automated Dataset Intelligence</text>
+  <text x="334" y="128" font-family="Arial, sans-serif" font-size="18" fill="#667085">Upload a real-world dataset and generate EDA, visualizations, correlations, outliers, and recommendations.</text>
+  <rect x="1080" y="48" width="128" height="44" rx="8" fill="#14213d"/>
+  <text x="1144" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Sample CSV</text>
+  <rect x="332" y="178" width="876" height="288" rx="8" fill="#ffffff" stroke="#d9e2ec" stroke-dasharray="8 8"/>
+  <rect x="738" y="234" width="64" height="64" rx="8" fill="#e8f6f6"/>
+  <text x="770" y="276" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="800" fill="#0f8b8d">↑</text>
+  <text x="770" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#152033">Drop your dataset here</text>
+  <text x="770" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#667085">or browse for a CSV or Excel workbook</text>
+  <rect x="696" y="390" width="148" height="44" rx="8" fill="#0f8b8d"/>
+  <text x="770" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Browse File</text>
+  <rect x="332" y="498" width="876" height="190" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+  <text x="356" y="540" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#152033">Results</text>
+  <rect x="356" y="570" width="188" height="82" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+  <rect x="568" y="570" width="188" height="82" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+  <rect x="780" y="570" width="188" height="82" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+  <rect x="992" y="570" width="188" height="82" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+  <text x="380" y="612" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#0f8b8d">46</text>
+  <text x="592" y="612" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#0f8b8d">12</text>
+  <text x="804" y="612" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#0f8b8d">9</text>
+  <text x="1016" y="612" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#0f8b8d">0</text>
+  <text x="380" y="636" font-family="Arial, sans-serif" font-size="13" fill="#667085">Cleaned rows</text>
+  <text x="592" y="636" font-family="Arial, sans-serif" font-size="13" fill="#667085">Cleaned columns</text>
+  <text x="804" y="636" font-family="Arial, sans-serif" font-size="13" fill="#667085">Visualizations</text>
+  <text x="1016" y="636" font-family="Arial, sans-serif" font-size="13" fill="#667085">Missing values</text>
+</svg>

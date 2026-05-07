@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>InsightForge Big Data Analyzer</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="brand-mark">IF</span>
+          <div>
+            <strong>InsightForge</strong>
+            <span>Big Data Analyzer</span>
+          </div>
+        </div>
+        <nav class="steps" aria-label="Workflow">
+          <span class="step active">Upload</span>
+          <span class="step">Preview</span>
+          <span class="step">Analyze</span>
+          <span class="step">Insights</span>
+        </nav>
+        <div class="sidebar-note">
+          CSV and Excel files up to 50 MB. The pipeline profiles columns, cleans missing values, builds interactive charts, and writes executive-ready conclusions.
+        </div>
+      </aside>
+
+      <section class="workspace">
+        <header class="topbar">
+          <div>
+            <h1>Automated Dataset Intelligence</h1>
+            <p>Upload a real-world dataset and generate EDA, visualizations, correlations, outliers, and business recommendations.</p>
+          </div>
+          <a class="sample-link" href="/static/sample_car_sales.csv" download>Sample CSV</a>
+        </header>
+
+        <section class="upload-panel" id="dropZone">
+          <input id="fileInput" type="file" accept=".csv,.xlsx,.xls" hidden />
+          <div class="upload-icon" aria-hidden="true">↑</div>
+          <h2>Drop your dataset here</h2>
+          <p>or browse for a CSV or Excel workbook</p>
+          <button id="browseButton" class="primary-button" type="button">Browse File</button>
+          <span id="fileMeta" class="file-meta"></span>
+        </section>
+
+        <section class="panel hidden" id="previewPanel">
+          <div class="panel-header">
+            <div>
+              <h2>Preview</h2>
+              <p>First 20 cleaned rows after parsing.</p>
+            </div>
+            <button id="analyzeButton" class="primary-button" type="button">Analyze Dataset</button>
+          </div>
+          <div class="table-wrap">
+            <table id="previewTable"></table>
+          </div>
+        </section>
+
+        <section class="loading hidden" id="loading">
+          <div class="spinner"></div>
+          <strong>Analyzing dataset</strong>
+          <span>Profiling columns, generating charts, and writing insights.</span>
+        </section>
+
+        <section class="error hidden" id="errorBox"></section>
+
+        <section class="results hidden" id="results">
+          <div class="metric-grid" id="metrics"></div>
+
+          <section class="panel">
+            <div class="panel-header">
+              <div>
+                <h2>Statistical Summary</h2>
+                <p>Data types, missing values, descriptive statistics, top correlations, and outliers.</p>
+              </div>
+            </div>
+            <div class="summary-grid">
+              <div>
+                <h3>Column Types</h3>
+                <div id="columnTypes" class="chips"></div>
+              </div>
+              <div>
+                <h3>Top Correlations</h3>
+                <div id="correlations" class="list"></div>
+              </div>
+              <div>
+                <h3>Outliers</h3>
+                <div id="outliers" class="list"></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-header">
+              <div>
+                <h2>AI-Assisted Insights</h2>
+                <p>Rule-based analytic narrative ready to replace or enrich with an LLM API.</p>
+              </div>
+            </div>
+            <div id="insights" class="insights"></div>
+            <div id="conclusions" class="conclusions"></div>
+          </section>
+
+          <section class="charts" id="charts"></section>
+        </section>
+      </section>
+    </main>
+    <script src="/static/app.js"></script>
+  </body>
+</html>

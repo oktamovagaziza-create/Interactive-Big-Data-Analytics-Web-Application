@@ -1,0 +1,47 @@
+Date,Year,Manufacturer,Model,Fuel Type,Vehicle Type,Region,Units Sold,Price,Mileage,Engine Size,Customer Rating
+2021-01-15,2021,Toyota,RAV4,Hybrid,SUV,West,42,34200,24800,2.5,4.6
+2021-02-04,2021,Ford,F-150,Gasoline,Truck,South,56,39800,31200,3.5,4.4
+2021-02-19,2021,Tesla,Model 3,Electric,Sedan,West,38,48900,12800,0.0,4.8
+2021-03-12,2021,Honda,Civic,Gasoline,Sedan,East,44,24700,28600,2.0,4.3
+2021-04-08,2021,BMW,X5,Diesel,SUV,North,19,68200,22100,3.0,4.5
+2021-05-21,2021,Nissan,Leaf,Electric,Hatchback,West,23,31800,16200,0.0,4.2
+2021-06-10,2021,Hyundai,Tucson,Hybrid,SUV,Central,31,32900,20500,1.6,4.4
+2021-07-16,2021,Chevrolet,Equinox,Gasoline,SUV,South,36,28600,29800,1.5,4.1
+2021-08-02,2021,Audi,Q5,Gasoline,SUV,East,18,51200,18400,2.0,4.6
+2021-09-24,2021,Kia,Niro,Hybrid,Crossover,West,27,30100,19300,1.6,4.3
+2021-10-11,2021,Mercedes,GLC,Gasoline,SUV,North,16,54800,17600,2.0,4.6
+2021-11-18,2021,Toyota,Camry,Gasoline,Sedan,Central,39,28100,27100,2.5,4.4
+2022-01-09,2022,Tesla,Model Y,Electric,SUV,West,51,61200,9400,0.0,4.9
+2022-02-14,2022,Ford,Mustang Mach-E,Electric,SUV,South,26,55900,11600,0.0,4.7
+2022-03-03,2022,Toyota,Prius,Hybrid,Hatchback,West,34,29200,21400,1.8,4.2
+2022-03-28,2022,Honda,CR-V,Hybrid,SUV,East,41,36100,19800,2.0,4.5
+2022-04-19,2022,Chevrolet,Silverado,Gasoline,Truck,South,48,42100,33700,5.3,4.2
+2022-05-06,2022,BMW,330e,Hybrid,Sedan,North,21,46200,14200,2.0,4.6
+2022-06-15,2022,Nissan,Rogue,Gasoline,SUV,Central,35,30400,26400,1.5,4.0
+2022-07-25,2022,Hyundai,Ioniq 5,Electric,Crossover,West,29,47200,8300,0.0,4.8
+2022-08-13,2022,Kia,Sorento,Hybrid,SUV,South,32,39400,18700,1.6,4.5
+2022-09-30,2022,Audi,e-tron,Electric,SUV,East,15,71600,7200,0.0,4.7
+2022-10-20,2022,Mercedes,EQS,Electric,Sedan,North,10,96500,5600,0.0,4.8
+2022-11-16,2022,Toyota,Highlander,Hybrid,SUV,Central,37,43800,17600,2.5,4.4
+2023-01-05,2023,Tesla,Model Y,Electric,SUV,West,68,58400,7200,0.0,4.8
+2023-02-11,2023,Ford,F-150 Lightning,Electric,Truck,South,31,64100,6900,0.0,4.7
+2023-03-22,2023,Honda,Accord,Hybrid,Sedan,East,43,33700,17100,2.0,4.5
+2023-04-09,2023,Toyota,RAV4 Prime,Hybrid,SUV,West,46,42800,13900,2.5,4.7
+2023-05-27,2023,Chevrolet,Bolt EUV,Electric,Crossover,Central,28,33200,8900,0.0,4.3
+2023-06-18,2023,BMW,i4,Electric,Sedan,North,24,58400,6100,0.0,4.8
+2023-07-03,2023,Nissan,Ariya,Electric,Crossover,West,22,48100,7400,0.0,4.4
+2023-08-14,2023,Hyundai,Santa Fe,Gasoline,SUV,South,33,34200,24600,2.5,4.1
+2023-09-07,2023,Kia,EV6,Electric,Crossover,West,35,49900,5900,0.0,4.8
+2023-10-25,2023,Audi,Q4 e-tron,Electric,SUV,East,19,53700,5200,0.0,4.6
+2023-11-12,2023,Mercedes,GLA,Gasoline,SUV,North,17,41200,21100,2.0,4.2
+2024-01-17,2024,Tesla,Model 3,Electric,Sedan,West,74,45800,4800,0.0,4.7
+2024-02-06,2024,Toyota,Camry Hybrid,Hybrid,Sedan,Central,52,31900,12200,2.5,4.6
+2024-03-19,2024,Ford,Explorer,Hybrid,SUV,South,39,48200,15100,3.3,4.3
+2024-04-22,2024,Honda,Prologue,Electric,SUV,East,27,51400,3600,0.0,4.6
+2024-05-10,2024,Chevrolet,Tahoe,Gasoline,SUV,South,21,62100,22600,5.3,4.1
+2024-06-28,2024,BMW,iX,Electric,SUV,North,18,87200,4100,0.0,4.8
+2024-07-15,2024,Hyundai,Kona Electric,Electric,Crossover,West,42,34600,3900,0.0,4.5
+2024-08-20,2024,Kia,Sportage,Hybrid,SUV,Central,47,35600,11800,1.6,4.4
+2024-09-08,2024,Audi,A6,Gasoline,Sedan,East,14,58600,17400,2.0,4.5
+2024-10-02,2024,Mercedes,EQB,Electric,SUV,North,20,54200,4300,0.0,4.6
+2024-11-18,2024,Nissan,Altima,Gasoline,Sedan,South,30,29600,23900,2.5,4.0
